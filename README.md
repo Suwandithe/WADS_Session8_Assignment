@@ -2,7 +2,7 @@
 
 ## API Docummentation using swaggerjs
 
-### Authentication
+### Authentication:
 
 ### Endpoints:
 ![register](./apiDocs/userRegister1.jpg)
@@ -25,9 +25,15 @@ To login to the todo app, user must provide their email and password that they i
 
 User can also logout from the todo app, and they cannot access the todo app if they are logget out.
 
+### Middleware:
+
 ![middleware](./apiDocs/middleWare.jpg)
 
 As mentioned previously, if the user is logged out, they will not be able to access any services from the todo app. They need to login again to access it, so we will login again and perform the CRUD for the todo app.
+
+### Todo CRUD:
+
+### endpoints:
 
 ![getTodo](./apiDocs/getTodo.jpg)
 
